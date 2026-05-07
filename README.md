@@ -1,2 +1,33 @@
-# annotation-error-detector
-Annotation Error Detector is a lightweight machine learning–assisted tool designed to automatically identify mistakes in labeled datasets used for computer vision and audio/video AI systems.
+🧠 Annotation Error Detector
+
+A machine learning project that detects incorrect bounding box annotations.
+
+🚀 Features
+
+* Detects misaligned bounding boxes
+* Generates synthetic errors
+* Uses ML model for classification
+
+🛠️ Tech Stack
+
+* Python
+* scikit-learn
+* pandas
+* numpy
+
+▶️ How to Run
+
+pip install -r requirements.txt
+python src/data_generator.py
+python src/train.py
+python src/predict.py
+
+📊 Output
+
+Correct → Proper bounding box
+Incorrect → Misaligned annotation
+
+ 🎯 Use Case
+
+Improves annotation quality for AI training datasets.
+
